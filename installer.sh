@@ -134,15 +134,15 @@ install_anakam() {
     echo -e "${BLUE}[+] Copying files to $INSTALL_DIR...${NC}"
     
     # Check if main script exists
-    if [[ -f "anakam_recon.sh" ]]; then
-        cp anakam_recon.sh "$INSTALL_DIR/"
-        chmod +x "$INSTALL_DIR/anakam_recon.sh"
+    if [[ -f "anakamy_recon.sh" ]]; then
+        cp anakamy_recon.sh "$INSTALL_DIR/"
+        chmod +x "$INSTALL_DIR/anakamy_recon.sh"
         
         # Create symlink with correct name
         echo -e "${BLUE}[+] Creating symlink in $BIN_DIR...${NC}"
-        ln -sf "$INSTALL_DIR/anakam_recon.sh" "$BIN_DIR/anakramy-recon"
+        ln -sf "$INSTALL_DIR/anakamy_recon.sh" "$BIN_DIR/anakramy-recon"
     else
-        echo -e "${RED}[ERROR] Main script anakam_recon.sh not found!${NC}"
+        echo -e "${RED}[ERROR] Main script anakamy_recon.sh not found!${NC}"
         exit 1
     fi
     
