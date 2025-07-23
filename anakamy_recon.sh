@@ -239,7 +239,7 @@ main() {
   generate_report
   cleanup
   
-  echo "${green}[+] Anakam Recon completed successfully!${reset}"
+  echo "${green}[+] Anakamy Recon completed successfully!${reset}"
   echo "${green}[+] Results saved to: $output_dir${reset}"
 }
 
