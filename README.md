@@ -8,6 +8,10 @@
 
 Anakam Recon is an automated reconnaissance tool that performs comprehensive scanning of target domains to identify subdomains, web applications, and potential vulnerabilities.
 
+
+<img width="2880" height="1800" alt="anakramy_recon" src="https://github.com/user-attachments/assets/b381bd37-8c36-4a3f-89fb-79f7ed12f026" />
+
+
 ## Features
 
 - Subdomain enumeration using multiple tools
