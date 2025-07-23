@@ -32,7 +32,7 @@ Anakam Recon is an automated reconnaissance tool that performs comprehensive sca
 Simply run this command to install Anakam Recon system-wide:
 
 ```
-curl -sSL https://raw.githubusercontent.com/yourusername/anakam-recon/main/installer.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/santhosh-ceo/Anakamy-recon/main/installer.sh | sudo bash
 ```
 
 ### Manual Installation
